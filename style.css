@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+}
+
+.header {
+    height: 2.8em;
+    padding: 0.8em 2em;
+    background-color: lightblue;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header-div {
+    padding: 0.5em;
+    border: red solid 1px;
+}
+
+
+.icon-button {
+    padding: 0.5em;
+    border: red solid 1px;
+}
+
+.icon-button a, .header-div a{
+    text-decoration: none;
+}
