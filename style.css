@@ -30,6 +30,7 @@
     text-align: center;
     position: absolute;
     bottom: 2em;
+    width: 100%;
 }
 
 .footer-links {
@@ -48,12 +49,28 @@
 .main-section {
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     border: solid green 1px;
-    height: 80%;
+    height: 50em;
 }
 
 .form-content {
-    width: 100px;
+    width: 19.875em;
+    height: 38.5em;
+    display: flex;
+    flex-direction: column;
 }
 
+.form {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0.4em;
+}
+
+.containner {
+    padding: 1em;
+}
+
+.terms {
+    padding: 1em;
+}

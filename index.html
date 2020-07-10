@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="./share-icon-v1.0/icons-styles.css">
+    <link rel="stylesheet" href="./share-icon-v1.0/style.css">
     <title>Intuit-Accounts</title>
 </head>
 <body>
@@ -20,29 +20,43 @@
     <section class="main-section">
         <form action="" class="">
             <fieldset class="form-content">
+                <div>
+                    <h2>Create an Intuit account</h2>
+                    <p>One account for everything Intuit, including Mint.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div class="containner">
+                    <label for="email" class="form">
+                        Email address
+                    </label>
+                    <input  type="email" name="email" id="email">
+                </div>
+                <div class="containner">
+                    <label for="tel"class="form">
+                        Phone (recommended)
+                    </label>
+                    <input type="tel" name="phone-number" id="tel">
+                </div>
+                <div class="containner">
+                    <label for="password"class="form">
+                        Password
+                    </label>
+                    <input type="password" name="password" id="password">
+                </div>
+                <div class="containner">
+                    <label for="confirm-password" class="form">
+                        Confirm password
+                    </label>
+                    <input type="password" name="password" id="confirm-password">
+                </div>
                 
-                <label for="" class="form">
-                    Email address
-                    <input type="email" name="email" id="email">
-                </label>
+                <div>
+                    <input type="submit" name="submit" value="Create Account">
+                </div>
 
-                <label for="">
-                    Phone (recommended)
-                    <input type="tel" name="phone-number">
-                </label>
-
-                <label for="">
-                    Password
-                    <input type="password" name="password">
-                </label>
-
-                <label for="">
-                    Confirm password
-                    <input type="password" name="password">
-                </label>
-                
-                
-                <span class="icon-lock"></span><input type="submit" name="submit" value="Create Account">
+                <div class="terms">
+                    <p>By clicking Create account, you agree to our <a href="#">Terms</a>and have read and acknowledge our <a href="#">Privacy Statement</a>.</p>
+                </div>
             </fieldset>
         </form>
     </section>
