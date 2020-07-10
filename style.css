@@ -2,10 +2,14 @@
     margin: 0;
 }
 
+body {
+    background-color: #eceef1;
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 .header {
     height: 2.8em;
     padding: 0.8em 2em;
-    background-color: lightblue;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -13,13 +17,33 @@
 
 .header-div {
     padding: 0.5em;
-    border: red solid 1px;
+    font-size: smaller;
+    color: rgb(69, 69, 69)
 }
 
 
+.icon-button, .submit {
+    padding: 0.5em 0.8em;
+    background-color: #0077c5;
+    border-radius: 3px;
+}
+
+.header-div a {
+    color: #0077C5;
+}
+
 .icon-button {
-    padding: 0.5em;
-    border: red solid 1px;
+    border: solid grey 1px;
+}
+
+.icon-button a, .submit a {
+    color: white;
+}
+
+.submit a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
 }
 
 .icon-button a, .header-div a{
@@ -28,7 +52,7 @@
 
 .footer {
     text-align: center;
-    position: absolute;
+    position: relative;
     bottom: 2em;
     width: 100%;
 }
@@ -50,7 +74,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: solid green 1px;
     height: 50em;
 }
 
@@ -59,12 +82,38 @@
     height: 38.5em;
     display: flex;
     flex-direction: column;
+    background-color: #ffffff;
+    border: lightgray solid 1px;
+}
+
+.form-title {
+    text-align: center;
+    color: rgb(69, 69, 69)
+}
+
+.form-title h2 {
+    padding: 0.8em 0;
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+
+.form-title p {
+    font-size: smaller;
+}
+
+.form-title a {
+    text-decoration: none;
+    color: #0077C5;
 }
 
 .form {
     display: flex;
     flex-direction: column;
     padding-bottom: 0.4em;
+}
+
+.containner input {
+    border: solid lightgray 1px;
 }
 
 .containner {
