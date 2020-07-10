@@ -17,23 +17,32 @@ body {
 
 .header-div {
     padding: 0.5em;
-    font-size: smaller;
+    font-size: 12px;
     color: rgb(69, 69, 69)
 }
 
 
 .icon-button, .submit {
-    padding: 0.5em 0.8em;
     background-color: #0077c5;
     border-radius: 3px;
 }
+
+
 
 .header-div a {
     color: #0077C5;
 }
 
 .icon-button {
-    border: solid grey 1px;
+    border: solid #4c4c4c 1px;
+    padding: 0.5em 0.8em;
+}
+
+.submit {
+    width: auto;
+    padding: 6px 0px 6px 0px;
+    margin-left: 1em;
+    
 }
 
 .icon-button a, .submit a {
@@ -44,6 +53,8 @@ body {
     text-decoration: none;
     display: flex;
     justify-content: center;
+    height: 2em;
+    align-items: center;
 }
 
 .icon-button a, .header-div a{
@@ -75,15 +86,17 @@ body {
     justify-content: center;
     align-items: center;
     height: 50em;
+    flex-direction: column;
 }
 
 .form-content {
     width: 19.875em;
-    height: 38.5em;
+    height: 35em;
     display: flex;
     flex-direction: column;
     background-color: #ffffff;
     border: lightgray solid 1px;
+    padding: 1.9em;
 }
 
 .form-title {
@@ -104,6 +117,7 @@ body {
 .form-title a {
     text-decoration: none;
     color: #0077C5;
+    font-size: smaller;
 }
 
 .form {
@@ -114,6 +128,9 @@ body {
 
 .containner input {
     border: solid lightgray 1px;
+    width: 100%;
+    height: 2.3em;
+    border-radius: 3px;
 }
 
 .containner {
@@ -121,5 +138,17 @@ body {
 }
 
 .terms {
-    padding: 1em;
+    padding: 1.5em;
+    text-align: center;
+    font-size: smaller;
+    
+}
+
+.terms p {
+    color: rgb(69, 69, 69);
+}
+
+.terms a {
+    color: #0077C5;
+    text-decoration: none;
 }
