@@ -45,7 +45,15 @@
     color: #505050;
 }
 
-.form {
+.main-section {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border: solid green 1px;
+    height: 80%;
+}
+
+.form-content {
     width: 100px;
 }
 
