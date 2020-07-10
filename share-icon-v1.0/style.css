@@ -8,14 +8,13 @@
     url('fonts/share-icon.svg?ochidk#share-icon') format('svg');
   font-weight: normal;
   font-style: normal;
-  font-display: block;
 }
 
 [class^="icon-"],
 [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'share-icon' !important;
-  speak: never;
+  font-family: 'share-icon', Arial, Helvetica, sans-serif;
+  /*speak: never;*/
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
