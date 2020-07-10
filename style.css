@@ -150,7 +150,8 @@ body {
   color: rgb(69, 69, 69);
 }
 
-.terms a, .captcha a {
+.terms a,
+.captcha a {
   color: #0077c5;
   text-decoration: none;
 }
@@ -170,20 +171,20 @@ body {
 }
 
 .logo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .logo p {
-    padding: 0 10px;
-    font-size: 1.2em;
-    color: rgb(121, 121, 121);
-    padding-bottom: 0.7em;
-    display: inherit;
-    align-items: center;
+  padding: 0 10px;
+  font-size: 1.2em;
+  color: rgb(121, 121, 121);
+  padding-bottom: 0.7em;
+  display: inherit;
+  align-items: center;
 }
 
 .logo-names {
-    display: flex;
+  display: flex;
 }
