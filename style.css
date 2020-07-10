@@ -63,14 +63,17 @@ body {
 
 .footer {
     text-align: center;
+    font-size: 12px;
     position: relative;
-    bottom: 2em;
+    bottom: 1em;
     width: 100%;
+    margin-top: 2em;
 }
 
 .footer-links {
     text-decoration: none;
     color: #505050;
+    padding: 0 0.7em;
 }
 
 .footer-links:hover {
@@ -96,6 +99,7 @@ body {
     flex-direction: column;
     background-color: #ffffff;
     border: lightgray solid 1px;
+    border-bottom: none;
     padding: 1.9em;
 }
 
@@ -151,4 +155,23 @@ body {
 .terms a {
     color: #0077C5;
     text-decoration: none;
+}
+
+.captcha {
+    width: 19.875em;
+    padding: 1em 1.9em;
+    border: lightgray solid 1px ;
+    background-color: #ECEEF1;
+    border-top: none;
+}
+
+.captcha p {
+    font-size: 10px;
+    text-align: center;
+    color: rgb(69, 69, 69);
+}
+
+.captcha a {
+    text-decoration: none;
+    color: #0077C5;
 }
