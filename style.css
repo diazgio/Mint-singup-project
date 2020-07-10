@@ -150,7 +150,7 @@ body {
   color: rgb(69, 69, 69);
 }
 
-.terms a {
+.terms a, .captcha a {
   color: #0077c5;
   text-decoration: none;
 }
@@ -167,9 +167,4 @@ body {
   font-size: 10px;
   text-align: center;
   color: rgb(69, 69, 69);
-}
-
-.captcha a {
-  text-decoration: none;
-  color: #0077c5;
 }
