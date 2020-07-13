@@ -8,7 +8,7 @@
     <title>Intuit-Accounts</title>
 </head>
 <body>
-    <header class="header">
+    <header class="header flex">
         <div class="header-div">
             <p>Already have an Intuit account?</p>
             <a href="#">I forgot my User ID or Password</a>
@@ -17,53 +17,53 @@
             <a href="#" ><span class="icon-lock">Sign In</span></a>
         </div>
     </header>
-    <section class="main-section">
-        <div class="logo">
+    <main class="main-section flex">
+        <div class="logo flex">
 
             <div class="intuit">
                 <img src="images/logo-title.PNG" alt="INTUIT">
             </div>
             
-            <div class="logo-names">
+            <div class="logo-names flex">
                 <p><img src="images/blue-icon.PNG" alt="">mint</p>
                 <p><img src="images/green-icon.PNG" alt="">quickbooks</p>
                 <p><img src="images/red-icon.png" alt="">turbotax</p>
             </div>
         </div>
         <form action="#">
-            <fieldset class="form-content">
+            <fieldset class="form-content flex">
                 <div class="form-title">
                     <h2>Create an Intuit account</h2>
                     <p>One account for everything Intuit, including Mint.</p>
                     <a href="#">Learn more</a>
                 </div>
                 <div class="containner">
-                    <label for="email" class="form">
+                    <label for="email" class="form flex">
                         Email address
                     </label>
                     <input  type="email" name="email" id="email">
                 </div>
                 <div class="containner">
-                    <label for="tel" class="form">
+                    <label for="tel" class="form flex">
                         Phone (recommended)
                     </label>
                     <input type="tel" name="phone-number" id="tel">
                 </div>
                 <div class="containner">
-                    <label for="password" class="form">
+                    <label for="password" class="form flex">
                         Password
                     </label>
                     <input class="input-pass" type="password" name="password" id="password">
                 </div>
                 <div class="containner" id="inpunt-containner">
-                    <label for="confirm-password" class="form">
+                    <label for="confirm-password" class="form flex">
                         Confirm password
                     </label>
                     <input  type="password" name="password" id="confirm-password">
                 </div>
                 
                 <div class="submit">
-                    <a href="#" ><span class="icon-lock">Create Account</span></a>
+                    <a href="#" class="flex"><span class="icon-lock">Create Account</span></a>
                 </div>
 
                 <div class="terms">
@@ -78,12 +78,14 @@
                     </p>
             </fieldset>
         </form>
-    </section>
+    </main>
     
     <footer class="footer">
-        <a href="#" class="footer-links">Legal</a>
-        <a href="#" class="footer-links">Privacy</a>        
-        <a href="#" class="footer-links">Security</a>
+        <nav>
+            <a href="#" class="footer-links">Legal</a>
+            <a href="#" class="footer-links">Privacy</a>        
+            <a href="#" class="footer-links">Security</a>
+        </nav>
 
         <p>© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc. <br>
             Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
