@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/diazgio/Mint-singup-project/3e7a02196e562c020af1d0e8d6d8ce9b841c1a09/index.html)
+[Live Demo Link](https://diazgio.github.io/Mint-singup-project/)
 
 
 ## Getting Started
