@@ -127,6 +127,7 @@ body {
   display: flex;
   flex-direction: column;
   padding-bottom: 0.4em;
+  font-size: 12px;
 }
 
 .containner input {
@@ -140,14 +141,19 @@ body {
   padding: 1em;
 }
 
+#input-containner {
+  padding-bottom: 2em;
+}
+
 .terms {
-  padding: 1.5em;
+  padding: 2.5em 1.5em;
   text-align: center;
   font-size: smaller;
 }
 
 .terms p {
-  color: rgb(69, 69, 69);
+  color: rgb(105, 104, 104);
+  font-size: 12px;
 }
 
 .terms a,
@@ -187,4 +193,10 @@ body {
 
 .logo-names {
   display: flex;
+}
+
+.input-pass {
+  background-image: url(./images/lock-open.PNG);
+  background-repeat: no-repeat;
+  background-position: right;
 }
